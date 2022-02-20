@@ -1,0 +1,3 @@
+- decimal number should be entered like "0.01", "5.5" and not like ".5"
+- only results are printed whose precision is upto two places after the result
+- all decimal results are calculated by truncating result upto 2nd decimal
