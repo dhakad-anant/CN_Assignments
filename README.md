@@ -58,8 +58,9 @@ Note: Move to directory "task2\" before executing these commands
 
 
 Example:
+
+
     - gcc -o server server.c
     - ./server 1080
-
     - gcc -o client client.c
     - ./client 1080 127.0.0.1
