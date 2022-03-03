@@ -17,6 +17,7 @@
 Note: Move to directory "task1\" before executing these commands
 
 1. For server
+    
     // ignore warnings after this command
     - gcc -o server server.c    
     - ./server PORTNUMBER
@@ -24,6 +25,7 @@ Note: Move to directory "task1\" before executing these commands
     - Give input "exit" or "quit" from client to exit anytime.
 
 2. For clients 
+    
     // ignore warnings after this command
     - gcc -o client client.c    
     - ./client PORTNUMBER ipAddress
@@ -32,9 +34,9 @@ Note: Move to directory "task1\" before executing these commands
 
 
 Example:
+
     - gcc -o server server.c
     - ./server 1080
-
     - gcc -o client client.c
     - ./client 1080 127.0.0.1
 
@@ -43,6 +45,7 @@ Example:
 Note: Move to directory "task2\" before executing these commands
 
 1. For server
+
     // ignore warnings after this command
     - gcc -o server server.c -pthread  
     - ./server PORTNUMBER
@@ -50,6 +53,7 @@ Note: Move to directory "task2\" before executing these commands
     - Give input "exit" or "quit" from client to exit anytime.
 
 2. For clients
+
     // ignore warnings after this command
     - gcc -o client client.c    
     - ./client PORTNUMBER ipAddress
@@ -58,7 +62,6 @@ Note: Move to directory "task2\" before executing these commands
 
 
 Example:
-
 
     - gcc -o server server.c
     - ./server 1080
