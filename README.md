@@ -1,1 +1,4 @@
-# CN_Assignments
+For Running the Code.
+>> python main.py 
+
+
